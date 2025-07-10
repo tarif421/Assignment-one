@@ -6,7 +6,10 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
 /* shared style  */
 .btn-primary{
     background-color: #4E47FF;
@@ -36,6 +39,7 @@ nav {
 }
 
 /* banner style  */
+
 .banner{
     text-align: center;
     margin: 127px 267px;
@@ -78,6 +82,41 @@ nav {
     width: 400px;
     height: 330;
     border-radius: 30px;
+}
+
+/* pannel three  */
+.pannel-three {
+    margin: 50px 150px;
+    padding: 30px 140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+}
+
+.pannelthree-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-top: 25px;
+    margin-bottom: 30px;
     
- 
+}
+
+.users {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.userbox h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.userbox p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+
 }
