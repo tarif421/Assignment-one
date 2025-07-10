@@ -54,3 +54,30 @@ nav {
     margin-top: 37px;
     margin-bottom: 127px;
 }
+
+/* pannel tw0  */
+
+.panneltwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+    margin: 50px 150px;
+}
+
+.panneltwo-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+}
+.panneltwo-content{
+    font-size: 12px;
+    color:#252432 ;
+}
+.panneltwo img {
+    width: 400px;
+    height: 330;
+    border-radius: 30px;
+    
+ 
+}
