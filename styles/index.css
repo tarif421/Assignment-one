@@ -174,22 +174,23 @@ nav {
 .contact-pannel {
     display: flex;
     justify-content:center;  
-    margin: 150px;  
+    margin:  50px 150px;  
     
 }
 
 .contact-title h1 {
     width: 520px;
     height: 230px;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
     margin-top: 80px;
+    
     
 }
 
 .contact-container  {
     display: flex; 
-    gap: 220px;  
+    
 }
 
 .contact-container form {
