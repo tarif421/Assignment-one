@@ -22,6 +22,9 @@ background-color: #D6DDED;
     border: none;
 }
 
+.btn-primary:hover{
+    background-color: deepskyblue;
+}
 .background {
     background-image: url(../Assets/Hero-bg.png) ;
     width: 1440;
@@ -183,8 +186,7 @@ nav {
     gap: 80px;
     justify-content: space-between;
 
-    /* max-width: 1000px;
-    width: 100%; */
+    
     
 } 
 
